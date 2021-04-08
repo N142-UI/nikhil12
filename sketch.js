@@ -66,7 +66,7 @@ function draw() {
   //display the paricles 
 
   if (frameCount% 60 === 0){
-    particles.push(new Particle(random(width/2 -500,width/2 +500),15,15))
+    particle1.push(new Particle (random(width/2 -500,width/2 +500),15,15))
     score++;
   }
 
